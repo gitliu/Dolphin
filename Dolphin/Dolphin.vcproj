@@ -67,7 +67,7 @@
 			/>
 			<Tool
 				Name="VCLinkerTool"
-				LinkIncremental="2"
+				LinkIncremental="1"
 				GenerateDebugInformation="true"
 				SubSystem="2"
 				TargetMachine="1"
@@ -198,6 +198,10 @@
 				>
 			</File>
 			<File
+				RelativePath=".\NiceSlider.cpp"
+				>
+			</File>
+			<File
 				RelativePath=".\PicCtrl.cpp"
 				>
 			</File>
@@ -241,6 +245,10 @@
 			</File>
 			<File
 				RelativePath=".\LoginCtrl.h"
+				>
+			</File>
+			<File
+				RelativePath=".\NiceSlider.h"
 				>
 			</File>
 			<File

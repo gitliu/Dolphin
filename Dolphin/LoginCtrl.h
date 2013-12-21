@@ -20,6 +20,8 @@ protected:
 
 	DECLARE_MESSAGE_MAP()
 public:
+	int contoser();
+public:
 	afx_msg void OnBnClickedTrue();
 	// ip
 	CEdit m_mem_ip;

@@ -1,10 +1,10 @@
 // LoginCtrl.cpp : 实现文件
 //
-
+#include <WinSock2.h>
+#include <WS2tcpip.h>
 #include "stdafx.h"
 #include "Dolphin.h"
 #include "LoginCtrl.h"
-#include <WinSock2.h>
 #pragma comment(lib, "Ws2_32.lib")
 
 
@@ -15,7 +15,7 @@ IMPLEMENT_DYNAMIC(CLoginCtrl, CDialog)
 CLoginCtrl::CLoginCtrl(CWnd* pParent /*=NULL*/)
 	: CDialog(CLoginCtrl::IDD, pParent)
 {
-
+	
 }
 
 CLoginCtrl::~CLoginCtrl()
@@ -49,4 +49,9 @@ void CLoginCtrl::OnBnClickedTrue()
 	m_mem_pwd.GetWindowText(m_val_pwd);
 
 	CDialog::OnOK();
+}
+
+int CLoginCtrl::contoser()
+{
+	return 0;
 }

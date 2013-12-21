@@ -16,7 +16,6 @@
 #define IDC_EDIT_PWD                    1004
 #define ID_TRUE                         1005
 #define IDC_BTN_LOGIN                   1006
-#define IDCONCEL                        1007
 #define IDC_TREE_REV                    1011
 #define IDC_DATE_REV                    1012
 #define IDC_STC_PIC                     1014
@@ -27,14 +26,22 @@
 #define IDC_BTN_PIC                     1019
 #define IDC_STATIC_REV                  1020
 #define IDC_STATIC_PIC                  1021
+#define IDC_BTN_OPEN                    1021
+#define IDC_SLIDER2                     1027
+#define IDC_SLIDER_VIDEO                1027
+#define IDC_BTN_PLAY                    1028
+#define IDC_BTN_STOP                    1029
+#define IDC_BTN_BACK                    1030
+#define IDC_BTN_FORWORD                 1031
+#define IDC_BTN_FORWARD                 1031
 
 // Next default values for new objects
 // 
 #ifdef APSTUDIO_INVOKED
 #ifndef APSTUDIO_READONLY_SYMBOLS
-#define _APS_NEXT_RESOURCE_VALUE        132
+#define _APS_NEXT_RESOURCE_VALUE        133
 #define _APS_NEXT_COMMAND_VALUE         32771
-#define _APS_NEXT_CONTROL_VALUE         1021
+#define _APS_NEXT_CONTROL_VALUE         1030
 #define _APS_NEXT_SYMED_VALUE           101
 #endif
 #endif
